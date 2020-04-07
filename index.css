@@ -1,0 +1,79 @@
+body, html{
+	padding: 0px;
+	margin: 0px;
+}
+h1{
+	text-align: center;
+	padding-bottom: 200px;
+	font-size: 55px;
+
+}
+section{
+	padding:0px 30px;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+	color: white;
+	justify-content: center;
+	background-size: cover;
+}
+
+section >div{
+	position: relative;
+}
+
+.author{
+	text-align: right;
+	position: absolute;
+	right: 0px;
+	width: 200px;
+	padding-top: 10px;
+	border-top: 2px solid white;
+	align-self: flex-end;
+}
+
+.sentense{
+	width: 600px;
+}
+
+
+.section-1{
+	background-image: url('./image/bg_1.png');
+}
+
+.section-2{
+	background-image: url('./image/bg_2.png');
+}
+
+.section-3{
+	background-image: url('./image/bg_3.png');
+}
+
+.section-4{
+	background-image: url('./image/bg_4.png');
+}
+
+.section-5{
+	background-image: url('./image/bg_5.png');
+}
+
+.section-6{
+	background-image: url('./image/bg_6.png');
+}
+
+.section-7{
+	background-image: url('./image/bg_7.png');
+}
+
+.section-8{
+	background-image: url('./image/bg_8.png');
+}
+
+.section-9{
+	background-image: url('./image/bg_9.png');
+}
+
+#image{
+	position: fixed;
+}
